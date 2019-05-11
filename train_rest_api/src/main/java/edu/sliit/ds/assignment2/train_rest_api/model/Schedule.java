@@ -7,12 +7,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Schedule {
 	
 	@Id
-	String scheduleId;
-	String dayOfTheWeek;
-	String time;
-	String trainId;
-	String from;
-	String to;
+	private String scheduleId;
+	private String dayOfTheWeek;
+	private String time;
+	private String trainId;
+	private String from;
+	private String to;
 	
 	Schedule() {
 		

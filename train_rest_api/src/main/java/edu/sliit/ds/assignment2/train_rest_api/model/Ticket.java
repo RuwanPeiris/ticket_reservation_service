@@ -7,13 +7,13 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Ticket {
 	
 	@Id
-	String ticketId;
-	String date;
-	String from;
-	String to;
-	int ticket_class;//1st(AC),2nd, 3rd
-	String price;
-	String paymentId;
+	private String ticketId;
+	private String date;
+	private String from;
+	private String to;
+	private int ticket_class;//1st(AC),2nd, 3rd
+	private String price;
+	private String paymentId;
 	
 	Ticket(){
 		

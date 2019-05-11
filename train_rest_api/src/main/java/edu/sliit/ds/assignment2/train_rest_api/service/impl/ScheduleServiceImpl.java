@@ -3,16 +3,15 @@ package edu.sliit.ds.assignment2.train_rest_api.service.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import edu.sliit.ds.assignment2.train_rest_api.model.Schedule;
 import edu.sliit.ds.assignment2.train_rest_api.repository.ScheduleRepository;
 import edu.sliit.ds.assignment2.train_rest_api.service.ScheduleService;
 
-@Service("scheduleService")
-public class ScheduleServiceImpl implements ScheduleService{
-	
+@Service
+public class ScheduleServiceImpl implements ScheduleService {
+
 	@Autowired
 	private ScheduleRepository scheduleRepository;
 
@@ -27,18 +26,26 @@ public class ScheduleServiceImpl implements ScheduleService{
 	}
 
 	@Override
-	public Schedule findByDayAndTimeAndFromAndTo(String day, String time, String from, String to) {
-		return scheduleRepository.findSchedulesByDayNFromNTo(day,time, from, to);
+	public Schedule findByDayOfTheWeekAndTimeAndFromAndTo(String dayOfTheWeek, String time, String from, String to) {
+		return scheduleRepository.findByDayOfTheWeekAndTimeAndFromAndTo(dayOfTheWeek, time, from, to);
 	}
 
 	@Override
-	public Schedule update(Schedule schedule) {
-		Schedule sched=scheduleRepository.findSchedulesByDayNFromNTo(schedule.getDayOfTheWeek(),schedule.getTime(),schedule.getFrom(), schedule.getTo());
-		sched.setDayOfTheWeek(schedule.getDayOfTheWeek());
-		sched.setFrom(schedule.getFrom());
-		sched.setTo(schedule.getTo());
-		sched.setTime(schedule.getTime());
-		sched.setTrainId(schedule.getTrainId());
-		return scheduleRepository.save(sched);
+	public Schedule update(Schedule schedule, String scheduleId) {
+		Schedule sched = scheduleRepository.findByScheduleId(scheduleId);
+		if (null != sched) {
+			sched.setDayOfTheWeek(schedule.getDayOfTheWeek());
+			sched.setFrom(schedule.getFrom());
+			sched.setTo(schedule.getTo());
+			sched.setTime(schedule.getTime());
+			sched.setTrainId(schedule.getTrainId());
+			return scheduleRepository.save(sched);
+		}
+		return sched;
+	}
+
+	@Override
+	public Schedule findByScheduleId(String scheduleId) {
+		return scheduleRepository.findByScheduleId(scheduleId);
 	}
 }

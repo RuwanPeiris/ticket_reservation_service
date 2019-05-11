@@ -10,6 +10,8 @@ import edu.sliit.ds.assignment2.train_rest_api.model.Payment;
 
 @Repository
 public interface PaymentRepository extends MongoRepository<Payment, String>{
-	public List<Payment> findPaymentByCardNumberAndDate(String cardNumber, String date);
+	public List<Payment> findByCardNumberAndDate(String cardNumber, String date);
 	public Payment findByPayId(String payId);
+	public List<Payment> findByMobileAndDate(String mobile, String date);
+	public Payment findByTicketId(String ticketId);
 }

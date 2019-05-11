@@ -7,9 +7,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Train {
 	
 	@Id
-	String trainId;
-	String type;//Express,slow
-	String number;//unique train number 
+	private String trainId;
+	private String type;//Express,slow
+	private String number;//unique train number 
 	
 	Train() {
 	}

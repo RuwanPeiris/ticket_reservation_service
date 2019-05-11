@@ -1,52 +1,59 @@
 package edu.sliit.ds.assignment2.train_rest_api.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.sliit.ds.assignment2.train_rest_api.model.Payment;
 import edu.sliit.ds.assignment2.train_rest_api.service.PaymentService;
 
-
-
 @RestController
+@RequestMapping("/payments")
 public class PaymentController {
-	
+
 	@Autowired
-	@Qualifier("paymentServiceImpl")
 	private PaymentService paymentService;
-	
-	@RequestMapping(value = "/payments", method = RequestMethod.GET)
-	List<Payment> findPayments() {
-		List<Payment> list= new ArrayList<>();
-		Payment p = new Payment();
-		p.setAmount(1000);
-		p.setCardHolderName("Ruwan");
-		list.add(p);
-		
-		return list;/*paymentService.getAll();*/
+
+	@RequestMapping(method = RequestMethod.GET)
+	public List<Payment> findPayments() {
+		return paymentService.getAll();
 	}
-	
-	@RequestMapping(value = "/payments" , method = RequestMethod.POST)
-	Payment savePayment(@RequestBody Payment payment) {
+
+	@RequestMapping(method = RequestMethod.POST)
+	public Payment savePayment(@RequestBody Payment payment) {
 		return paymentService.create(payment);
 	}
-	
-	@RequestMapping(value = "/payments" ,method = RequestMethod.PUT)
-	Payment updatePayment(@RequestBody Payment payment) {
-		return paymentService.update(payment);
+
+	@RequestMapping(method = RequestMethod.PUT)
+	public Payment updatePayment(@RequestBody Payment payment, @RequestParam(name = "payId") String payId) {
+		return paymentService.update(payment, payId);
+
 	}
 	
-	@RequestMapping(value= "/payments/{cardNumber}/{date}", method = RequestMethod.GET)
-	List<Payment> findPaymentByCardNUmberNDate(@PathVariable String cardNumber,@PathVariable String date) {
+	@RequestMapping(value = "/payment", method = RequestMethod.GET)
+	public Payment findPaymentByTicketId(@RequestParam(name = "ticketId") String ticketId) {
+		return paymentService.findByTicketId(ticketId);
+	}
+	
+	@RequestMapping(value = "/payment/id", method = RequestMethod.GET)
+	public Payment findPaymentById(@RequestParam(name = "payId") String payId) {
+		return paymentService.findByPayId(payId);
+	}
+
+	@RequestMapping(value = "/card", method = RequestMethod.GET)
+	public List<Payment> findPaymentByCardNUmberNDate(@RequestParam(name = "cardNumber") String cardNumber,
+			@RequestParam(name = "date") String date) {
 		return paymentService.findByCardNumberAndDate(cardNumber, date);
+	}
+
+	@RequestMapping(value = "/mobile", method = RequestMethod.GET)
+	public List<Payment> findPaymentByMobileNumberNDate(@RequestParam(name = "mobile") String mobile,
+			@RequestParam(name = "date") String date) {
+		return paymentService.findByMobileAndDate(mobile, date);
 	}
 }
