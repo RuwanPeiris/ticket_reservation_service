@@ -1,0 +1,415 @@
+10-May-2019 07:50:56.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.19
+10-May-2019 07:50:56.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2019 14:22:48 UTC
+10-May-2019 07:50:56.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.19.0
+10-May-2019 07:50:56.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+10-May-2019 07:50:56.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+10-May-2019 07:50:56.831 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2019 07:50:56.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+10-May-2019 07:50:56.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+10-May-2019 07:50:56.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2019 07:50:56.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 07:50:56.832 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 07:50:56.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2019 07:50:56.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2019 07:50:56.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2019 07:50:56.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\conf\logging.properties
+10-May-2019 07:50:56.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2019 07:50:56.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2019 07:50:56.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2019 07:50:56.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-May-2019 07:50:56.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 07:50:56.845 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 07:50:56.846 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\temp
+10-May-2019 07:50:56.847 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+10-May-2019 07:50:56.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-May-2019 07:50:56.849 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-May-2019 07:50:56.855 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+10-May-2019 07:50:57.031 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2019 07:50:57.282 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 07:50:57.300 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,460] milliseconds
+10-May-2019 07:50:57.449 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2019 07:50:57.450 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+10-May-2019 07:50:57.548 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 07:51:17.648 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2019 07:51:17.846 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [20,298] ms
+10-May-2019 07:51:17.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\docs]
+10-May-2019 07:51:17.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\docs] has finished in [50] ms
+10-May-2019 07:51:17.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\examples]
+10-May-2019 07:51:18.756 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\examples] has finished in [856] ms
+10-May-2019 07:51:18.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\host-manager]
+10-May-2019 07:51:18.809 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\host-manager] has finished in [52] ms
+10-May-2019 07:51:18.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\manager]
+10-May-2019 07:51:18.854 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\manager] has finished in [42] ms
+10-May-2019 07:51:18.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\ROOT]
+10-May-2019 07:51:18.939 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\ROOT] has finished in [80] ms
+10-May-2019 07:51:18.948 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2019 07:51:18.965 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 07:51:18.977 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [21,676] milliseconds
+10-May-2019 09:01:10.070 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 09:01:18.274 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 09:01:27.856 INFO [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2019 09:01:27.868 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [9,593] ms
+10-May-2019 10:18:25.583 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 10:18:35.665 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 10:18:44.950 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2019 10:18:44.962 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [9,297] ms
+10-May-2019 10:34:23.143 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 10:34:30.752 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 10:34:39.715 INFO [http-nio-8080-exec-29] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2019 10:34:39.727 INFO [http-nio-8080-exec-29] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [8,975] ms
+10-May-2019 10:42:59.406 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 10:43:39.455 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 10:43:48.196 INFO [http-nio-8080-exec-38] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-May-2019 10:43:48.207 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [8,753] ms
+10-May-2019 17:44:35.207 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 17:44:46.114 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 17:45:15.384 SEVERE [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:493)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1642)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1584)
+	at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:294)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:607)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/train_rest_api-0.0.1-SNAPSHOT]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 44 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:157)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:137)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 45 more
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 64 more
+
+10-May-2019 17:45:15.409 INFO [133] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [29,295] ms
+10-May-2019 17:45:47.591 INFO [http-nio-8080-exec-54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 17:49:27.890 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 17:49:49.098 SEVERE [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:493)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1642)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1584)
+	at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:294)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:607)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/train_rest_api-0.0.1-SNAPSHOT]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 44 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:157)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:137)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 45 more
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 64 more
+
+10-May-2019 17:49:49.104 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [21,214] ms
+10-May-2019 17:54:16.688 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+10-May-2019 17:54:49.833 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:54:49.973 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:54:50.041 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2019 17:54:50.143 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:54:50.160 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:54:50.194 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:54:50.205 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:55:16.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.19
+10-May-2019 17:55:16.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2019 14:22:48 UTC
+10-May-2019 17:55:16.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.19.0
+10-May-2019 17:55:16.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+10-May-2019 17:55:16.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+10-May-2019 17:55:16.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-May-2019 17:55:16.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+10-May-2019 17:55:16.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+10-May-2019 17:55:16.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-May-2019 17:55:16.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 17:55:16.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 17:55:16.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-May-2019 17:55:16.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-May-2019 17:55:16.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-May-2019 17:55:16.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\conf\logging.properties
+10-May-2019 17:55:16.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2019 17:55:16.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2019 17:55:16.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2019 17:55:16.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-May-2019 17:55:16.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 17:55:16.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19
+10-May-2019 17:55:16.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\temp
+10-May-2019 17:55:16.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+10-May-2019 17:55:16.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10-May-2019 17:55:16.117 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-May-2019 17:55:16.124 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+10-May-2019 17:55:16.215 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:55:16.394 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:55:16.400 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1,331] milliseconds
+10-May-2019 17:55:16.526 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-May-2019 17:55:16.527 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+10-May-2019 17:55:16.539 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\docs]
+10-May-2019 17:55:17.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\docs] has finished in [498] ms
+10-May-2019 17:55:17.055 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\examples]
+10-May-2019 17:55:17.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\examples] has finished in [953] ms
+10-May-2019 17:55:17.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\host-manager]
+10-May-2019 17:55:18.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\host-manager] has finished in [72] ms
+10-May-2019 17:55:18.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\manager]
+10-May-2019 17:55:18.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\manager] has finished in [93] ms
+10-May-2019 17:55:18.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\ROOT]
+10-May-2019 17:55:18.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\ROOT] has finished in [52] ms
+10-May-2019 17:55:18.217 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:55:18.229 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:55:18.234 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,832] milliseconds
+10-May-2019 17:55:43.790 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+10-May-2019 17:55:56.659 SEVERE [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Error deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+ java.lang.IllegalStateException: Error starting child
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:716)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:695)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:978)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:493)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1642)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:289)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1584)
+	at org.apache.catalina.manager.HTMLManagerServlet.upload(HTMLManagerServlet.java:294)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:212)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:607)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:53)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/train_rest_api-0.0.1-SNAPSHOT]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
+	... 44 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:157)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:137)
+	at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:91)
+	at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5139)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 45 more
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'paymentController' method 
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPaymentByCardNUmberNDate(java.lang.String,java.lang.String)
+to {GET /payments}: There is already 'paymentController' bean method
+public java.util.List<edu.sliit.ds.assignment2.train_rest_api.model.Payment> edu.sliit.ds.assignment2.train_rest_api.controller.PaymentController.findPayments() mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:618)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:586)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:312)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:282)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:280)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:252)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:211)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:199)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774)
+	... 64 more
+
+10-May-2019 17:55:56.663 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 21\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [12,872] ms
+10-May-2019 17:57:47.052 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:57:47.112 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:57:47.180 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-May-2019 17:57:47.220 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:57:47.222 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-May-2019 17:57:47.224 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-May-2019 17:57:47.226 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

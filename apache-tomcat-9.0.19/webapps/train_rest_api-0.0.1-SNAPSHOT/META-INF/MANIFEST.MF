@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.6.0
+Built-By: Ruwan
+Build-Jdk: 11.0.2
+Implementation-Title: train_rest_api
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: edu.sliit.ds.assignment2.train_rest_api
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/train_rest_api
+Main-Class: org.springframework.boot.loader.WarLauncher
+Start-Class: edu.sliit.ds.assignment2.train_rest_api.TrainRestApiApplica
+ tion
+Spring-Boot-Version: 2.1.4.RELEASE
+Spring-Boot-Classes: WEB-INF/classes/
+Spring-Boot-Lib: WEB-INF/lib/
+

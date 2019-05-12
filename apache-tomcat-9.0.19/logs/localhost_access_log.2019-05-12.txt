@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:14:47 +0530] "GET / HTTP/1.1" 200 11403
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:14:54 +0530] "GET /manager/html HTTP/1.1" 401 2562
+0:0:0:0:0:0:0:1 - admin [12/May/2019:05:15:03 +0530] "GET /manager/html HTTP/1.1" 200 19766
+0:0:0:0:0:0:0:1 - admin [12/May/2019:05:15:56 +0530] "POST /manager/html/upload;jsessionid=76AFE9678B11BE93AE19609D2714F5AD?org.apache.catalina.filters.CSRF_NONCE=2B4C21CF9EA484094AC691F162FA3834 HTTP/1.1" 200 19744
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:16:07 +0530] "GET /train_rest_api-0.0.1-SNAPSHOT/ HTTP/1.1" 404 1108
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:16:39 +0530] "GET /train_rest_api-0.0.1-SNAPSHOT/ HTTP/1.1" 404 1108
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:17:18 +0530] "GET /train_rest_api-0.0.1-SNAPSHOT/trains HTTP/1.1" 404 1114
+0:0:0:0:0:0:0:1 - - [12/May/2019:05:19:00 +0530] "GET /train_rest_api-0.0.1-SNAPSHOT/schedules HTTP/1.1" 404 1117

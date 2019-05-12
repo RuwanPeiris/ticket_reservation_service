@@ -1,0 +1,80 @@
+09-May-2019 11:45:57.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.19
+09-May-2019 11:45:57.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 12 2019 14:22:48 UTC
+09-May-2019 11:45:57.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.19.0
+09-May-2019 11:45:57.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 8.1
+09-May-2019 11:45:57.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.3
+09-May-2019 11:45:57.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-May-2019 11:45:57.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.2
+09-May-2019 11:45:57.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.2+9-LTS
+09-May-2019 11:45:57.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-May-2019 11:45:57.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19
+09-May-2019 11:45:57.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19
+09-May-2019 11:45:57.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-May-2019 11:45:57.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-May-2019 11:45:57.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-May-2019 11:45:57.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\conf\logging.properties
+09-May-2019 11:45:57.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-May-2019 11:45:57.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-May-2019 11:45:57.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-May-2019 11:45:57.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-May-2019 11:45:57.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19
+09-May-2019 11:45:57.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19
+09-May-2019 11:45:57.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\temp
+09-May-2019 11:45:57.482 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+09-May-2019 11:45:57.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-May-2019 11:45:57.486 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-May-2019 11:45:57.491 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+09-May-2019 11:45:57.680 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-May-2019 11:45:58.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-May-2019 11:45:58.042 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2,858] milliseconds
+09-May-2019 11:45:58.185 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-May-2019 11:45:58.186 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.19]
+09-May-2019 11:45:58.269 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+09-May-2019 11:46:12.786 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-May-2019 11:46:12.947 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [14,678] ms
+09-May-2019 11:46:12.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\docs]
+09-May-2019 11:46:12.996 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\docs] has finished in [47] ms
+09-May-2019 11:46:12.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\examples]
+09-May-2019 11:46:13.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\examples] has finished in [827] ms
+09-May-2019 11:46:13.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\host-manager]
+09-May-2019 11:46:13.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\host-manager] has finished in [47] ms
+09-May-2019 11:46:13.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\manager]
+09-May-2019 11:46:13.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\manager] has finished in [98] ms
+09-May-2019 11:46:13.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\ROOT]
+09-May-2019 11:46:14.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\ROOT] has finished in [47] ms
+09-May-2019 11:46:14.022 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-May-2019 11:46:14.033 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-May-2019 11:46:14.037 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15,995] milliseconds
+09-May-2019 17:40:46.882 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+09-May-2019 17:40:56.244 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+09-May-2019 17:41:04.723 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-May-2019 17:41:04.733 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [8,489] ms
+09-May-2019 17:44:35.864 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+09-May-2019 17:44:43.868 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+09-May-2019 17:44:52.331 INFO [http-nio-8080-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-May-2019 17:44:52.343 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [8,474] ms
+09-May-2019 19:47:58.360 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/train_rest_api-0.0.1-SNAPSHOT]
+09-May-2019 19:48:07.210 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war]
+09-May-2019 19:48:16.007 INFO [http-nio-8080-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-May-2019 19:48:16.021 INFO [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Ruwan\Desktop\Assignments to do\DS - REST API Assignment 2 - MAY 11\apache-tomcat-9.0.19\webapps\train_rest_api-0.0.1-SNAPSHOT.war] has finished in [8,810] ms
+09-May-2019 22:13:46.557 INFO [http-nio-8080-exec-38] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+ java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:467)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:836)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1747)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+09-May-2019 23:48:13.456 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-May-2019 23:48:13.594 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+09-May-2019 23:48:13.663 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-May-2019 23:48:13.704 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-May-2019 23:48:13.707 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+09-May-2019 23:48:13.711 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-May-2019 23:48:13.712 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
