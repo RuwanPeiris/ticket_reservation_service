@@ -1,5 +1,6 @@
 package edu.sliit.ds.assignment2.train_rest_api.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ public class TicketServiceImpl implements TicketService {
 
 	@Override
 	public Ticket create(Ticket ticket) {
+		ticket.setDate(new Date().toString());
 		return ticketRepository.save(ticket);
 	}
 

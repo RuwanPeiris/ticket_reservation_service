@@ -3,7 +3,7 @@ package edu.sliit.ds.assignment2.train_rest_api.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "document")
+@Document(collection = "payment")
 public class Payment {
 
 	@Id
@@ -20,11 +20,12 @@ public class Payment {
 	private boolean status;
 	private String email;
 	private String ticketId;
+	private String userId;
 
 	public Payment() {
 	}
 
-	Payment(String type, String date, double amount, String mobile, int pin, String nic, boolean status,String ticketId) {
+	Payment(String type, String date, double amount, String mobile, int pin, String nic, boolean status,String ticketId,String userId) {
 		this.type = type;
 		this.date = date;
 		this.amount = amount;
@@ -33,10 +34,11 @@ public class Payment {
 		this.nic = nic;
 		this.status = status;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
 	Payment(String type, String date, double amount, String cardNumber, int cvc, String cardHolderName, String nic,
-			boolean status, String email,String ticketId) {
+			boolean status, String email,String ticketId,String userId) {
 		this.type = type;
 		this.date = date;
 		this.amount = amount;
@@ -47,10 +49,11 @@ public class Payment {
 		this.status = status;
 		this.email = email;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
 	Payment(String type, String date, double amount, String mobile, int pin, String cardNumber, int cvc,
-			String cardHolderName, String nic, boolean status, String email, String ticketId) {
+			String cardHolderName, String nic, boolean status, String email, String ticketId,String userId) {
 		this.type = type;
 		this.date = date;
 		this.amount = amount;
@@ -63,9 +66,10 @@ public class Payment {
 		this.status = status;
 		this.email = email;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
-	Payment(String payId, String type, String date, double amount, String mobile, int pin, String nic, boolean status,String ticketId) {
+	Payment(String payId, String type, String date, double amount, String mobile, int pin, String nic, boolean status,String ticketId,String userId) {
 		this.payId = payId;
 		this.type = type;
 		this.date = date;
@@ -75,10 +79,11 @@ public class Payment {
 		this.nic = nic;
 		this.status = status;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
 	Payment(String payId, String type, String date, double amount, String cardNumber, int cvc, String cardHolderName,
-			String nic, boolean status, String email,String ticketId) {
+			String nic, boolean status, String email,String ticketId,String userId) {
 		this.payId = payId;
 		this.type = type;
 		this.date = date;
@@ -90,10 +95,11 @@ public class Payment {
 		this.status = status;
 		this.email = email;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
 	Payment(String payId, String type, String date, double amount, String mobile, int pin, String cardNumber, int cvc,
-			String cardHolderName, String nic, boolean status, String email,String ticketId) {
+			String cardHolderName, String nic, boolean status, String email,String ticketId,String userId) {
 		this.payId = payId;
 		this.type = type;
 		this.date = date;
@@ -107,6 +113,7 @@ public class Payment {
 		this.status = status;
 		this.email = email;
 		this.ticketId = ticketId;
+		this.userId = userId;
 	}
 
 	public String getPayId() {
@@ -213,6 +220,16 @@ public class Payment {
 
 	public void setTicketId(String ticketId) {
 		this.ticketId = ticketId;
+	}
+	
+	
+
+	public String getUserId() {
+		return userId;
+	}
+
+	public void setUserId(String userId) {
+		this.userId = userId;
 	}
 
 	@Override

@@ -13,18 +13,20 @@ public class Schedule {
 	private String trainId;
 	private String from;
 	private String to;
+	private double price;
 	
 	Schedule() {
 		
 	}
 	
-	Schedule(String scheduleId,String dayOfTheWeek,String time,String trainId,String from,String to) {
+	Schedule(String scheduleId,String dayOfTheWeek,String time,String trainId,String from,String to,double price) {
 		this.scheduleId= scheduleId;
 		this.dayOfTheWeek = dayOfTheWeek;
 		this.time = time;
 		this.trainId = trainId;
 		this.from = from;
 		this.to = to;
+		this.price = price;
 	}
 
 	public String getScheduleId() {
@@ -73,6 +75,14 @@ public class Schedule {
 
 	public void setTo(String to) {
 		this.to = to;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
 	}
 	
 	
